@@ -1,0 +1,113 @@
+body{
+    background-color: rgb(53, 8, 8);
+    color:white;
+   }
+h1,h2,h3,h4,h5,h6{
+    
+  color:rgb(20, 202, 190);
+  margin-left: 10px;
+  }
+  p{
+      padding: 10px;
+  }
+.history img{
+    float: right;
+    width:600px;
+    height:360px;
+    padding: 10px;
+  }
+
+
+table {
+font-family: arial, sans-serif;
+border-collapse: collapse;
+width: 60%;
+margin:10px;
+}
+td, th {
+border: 1px solid #dddddd;
+text-align: left;
+padding: 8px;
+}
+tr:nth-child(even) {
+background-color: teal;
+}
+tr:nth-child(odd) {
+background-color: gray;
+}
+.menubar{
+    float:left;
+    margin-right: 20px;
+    padding-top: 30px;
+    padding-bottom:70px;
+}
+div ul{
+    margin:0px;
+    padding:0px;
+    list-style: none;
+}
+div ul li{
+    float:left;
+    width:130px;
+    height:40px;
+    background-color: rgb(51, 47, 47);
+    opacity: .8;
+    line-height: 40px;
+    text-align: center;
+    font-size: 20px;
+    margin-right: 2px;
+}
+div ul li a{
+    text-decoration: none;
+    color:white;
+    display:block;
+}
+div ul li a:hover{
+    background-color:lightseagreen;
+    cursor: pointer;
+}
+div ul li ul li{
+    display:none;
+}
+div ul li:hover ul li{
+    display:block;
+    cursor: pointer;
+}
+.header-bio{
+    float:left;
+    padding:10px;
+    color:lightseagreen;
+}
+.div-clear{
+    clear:both;
+}
+.common-hr{
+    border: solid white 1px;
+    border-bottom:none;
+    width:100%;
+    margin:20px auto;
+}
+.hall img{
+    float: left;
+    width: 450px;
+    height: 300px;
+    margin: 10px;
+}
+.dept img{
+    float:right;
+    width:450px;
+    height: 300px;
+}
+.main{
+    background-color: rgb(14, 37, 37);
+}
+.logo{
+    float:left;
+    width:120px;
+    height:150px;
+    margin: 10px 30px;
+    padding:10px;
+}
+
+
+
